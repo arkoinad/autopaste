@@ -54,7 +54,7 @@
 (defun start-macos-clipboard-listener (&optional interval)
   "Start polling the macOS clipboard every 'x' seconds.
 Default interval is 1 second."
-  (interactive (list (read-number "nPolling interval (seconds):" 1)))
+  (interactive (list (read-number "Polling interval (seconds):" 1)))
   (setq interval (or interval 1))
   (when macos-clipboard-poll-timer
     (cancel-timer macos-clipboard-poll-timer))
