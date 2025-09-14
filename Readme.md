@@ -1,6 +1,6 @@
 # Autopaste.el
 
-The program is to used to automatically paste contents from the clipboard in Macos.
+The package is to automatically paste contents from the clipboard in Macos.
 
 ## Roadmap
 - Support clipboard paste on Linux.
