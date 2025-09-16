@@ -47,7 +47,7 @@
       ;;(with-current-buffer (get-buffer-create "*Clipboard-Paste*")
       (with-current-buffer (current-buffer)
         (goto-char (point-max)) ;; point if you want to paste in the current point
-	(insert "* ") ;;org header remove if you don't use org
+;;	(insert "* ") ;;org header remove if you don't use org
 	(insert current "\n")))))
 
 ;;;###autoload
@@ -75,4 +75,4 @@ Default interval is 1 second."
 
 (provide 'autopaste)
 
-;; autopaste.el ends
+;;; autopaste.el ends here
